@@ -1,6 +1,6 @@
 # RealTimeCameraServer
 
-__<h2>PeopleCounter_hall.py__: opencv와 캠 이용한 인원 수 체크, 체크한 내용들 30분 주기로 csv파일 최신화<br/>
+__PeopleCounter_hall.py__: opencv와 캠 이용한 인원 수 체크, 체크한 내용들 30분 주기로 csv파일 최신화<br/>
 __Person.py:__ 객체 인식 python 코드(오픈소스 참고 출처:  )<br/>
 __client.py:__ 로컬 pc에 담긴 코드 ( csv 파일 받아 옴)<br/>
 __net_client.js:__ nodejs 이용하여 웹 에서 파로 csv 파일 받아올 수 있도록 설정<br/>
