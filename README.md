@@ -21,7 +21,7 @@ __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트�
 
 <br/>
 <br/><br/><br/>
-__소프트웨어 구성 및 알고리즘 구성도__
+ __소프트웨어 구성 및 알고리즘 구성도__
 <br/><br/><br/>
  ‘출입 인원변수에 저장’ 상세 알고리즘 순서도<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155737-c994ff00-47e5-11eb-8147-1b0d65b2ceaf.png)
