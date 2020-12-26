@@ -9,9 +9,9 @@ __net_client.js:__ nodejs 이용하여 웹 에서 파로 csv 파일 받아올 �
 __server_.py:__ 라즈베리파이 또는 카메라 쪽에 있는 파일 ( csv 파일 송신)<br/>
 __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트리밍 가능하도록 구현<br/>
 또는, mjpg-streamer툴 이용
-<br/>
+<br/><br/><br/><br/>
  __시스템 개요 및 하드웨어 구성도__
- <br/>
+ <br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155676-42478b80-47e5-11eb-89bf-217c6d88475b.png)
 
 ∙ OpenCV YOLO를 통해 IN/OUT 영역에 감지된 객체 검출
@@ -20,14 +20,15 @@ __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트�
 ∙ 로컬 pc와 스마트폰 통신을 통해 실시간으로 확인 가능
 
 <br/>
-
+<br/><br/><br/>
 __소프트웨어 구성 및 알고리즘 구성도__
- ‘출입 인원변수에 저장’ 상세 알고리즘 순서도<br/>
+<br/><br/><br/>
+ ‘출입 인원변수에 저장’ 상세 알고리즘 순서도<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155737-c994ff00-47e5-11eb-8147-1b0d65b2ceaf.png)
 
-  라즈베리파이 알고리즘 순서도<br/>
+  라즈베리파이 알고리즘 순서도<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155758-f5b08000-47e5-11eb-9601-b691aae1f311.png)
 
-  데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)<br/>
+  데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155776-0fea5e00-47e6-11eb-891c-9095b239b167.png)
 
