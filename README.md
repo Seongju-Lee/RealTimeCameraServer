@@ -21,14 +21,14 @@ __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트�
 
 <br/>
 <br/><br/><br/>
- __소프트웨어 구성 및 알고리즘 구성도__
-<br/><br/><br/>
- ‘출입 인원변수에 저장’ 상세 알고리즘 순서도<br/><br/>
+__소프트웨어 구성 및 알고리즘 구성도__
+<br/><br/>
+ 1. ‘출입 인원변수에 저장’ 상세 알고리즘 순서도<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155737-c994ff00-47e5-11eb-8147-1b0d65b2ceaf.png)
 
-  라즈베리파이 알고리즘 순서도<br/><br/>
+ 2.  라즈베리파이 알고리즘 순서도<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155758-f5b08000-47e5-11eb-9601-b691aae1f311.png)
 
-  데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)<br/><br/>
+ 3.  데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)<br/><br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155776-0fea5e00-47e6-11eb-891c-9095b239b167.png)
 
