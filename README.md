@@ -1,5 +1,7 @@
 # RealTimeCameraServer
 
+__(공공장소(교내) 실시간 인원 수 파악 및 데이터 추출)__
+
 __PeopleCounter_hall.py__: opencv와 캠 이용한 인원 수 체크, 체크한 내용들 30분 주기로 csv파일 최신화<br/>
 __Person.py:__ 객체 인식 python 코드(오픈소스 참고 출처:  )<br/>
 __client.py:__ 로컬 pc에 담긴 코드 ( csv 파일 받아 옴)<br/>
@@ -8,7 +10,7 @@ __server_.py:__ 라즈베리파이 또는 카메라 쪽에 있는 파일 ( csv �
 __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트리밍 가능하도록 구현<br/>
 또는, mjpg-streamer툴 이용
 
- __시스템 개요 및 하드웨어 구성__
+ __시스템 개요 및 하드웨어 구성도__
 ![image](https://user-images.githubusercontent.com/67941526/103155676-42478b80-47e5-11eb-89bf-217c6d88475b.png)<br/>
 
 ∙ OpenCV YOLO를 통해 IN/OUT 영역에 감지된 객체 검출
@@ -20,11 +22,14 @@ __stream.js:__ nodejs 통신 이용하여 실시간 카메라 웹에서 스트�
 
 __소프트웨어 구성 및 알고리즘 구성도__
 <div>
+ ‘출입 인원변수에 저장’ 상세 알고리즘 순서도 <br/>
 ![image](https://user-images.githubusercontent.com/67941526/103155737-c994ff00-47e5-11eb-8147-1b0d65b2ceaf.png)
-‘출입 인원변수에 저장’ 상세 알고리즘 순서도 <br/>
+</br/>
 </div>  
+__라즈베리파이 알고리즘 순서도__
 ![image](https://user-images.githubusercontent.com/67941526/103155758-f5b08000-47e5-11eb-9601-b691aae1f311.png)
-라즈베리파이 알고리즘 순서도<br/>
+<br/>
 
+__데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)__
 ![image](https://user-images.githubusercontent.com/67941526/103155776-0fea5e00-47e6-11eb-891c-9095b239b167.png)
-데이터 파일 송신 과정 및 저장(웹에서 라즈베리파이 직접 접근 가능)
+
